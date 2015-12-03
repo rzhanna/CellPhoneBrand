@@ -1,0 +1,86 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#Goal of Analysis\n",
+    "##Which features matter?\n",
+    "The goal of this analysis to understand what features matter or less when it comes to net sales of a particular smartphone mode.\n",
+    "\n",
+    "###Specifically, how relevant is the \"Brand\"? Are you buying an Iphone just because it's an iphone."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#The Features I'm interested in are:\n",
+    "* Brand\n",
+    "* Processor Speed\n",
+    "* Screen Size\n",
+    "...\n",
+    "more to come"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###Caveat: This does not adaquately account for differences in availability and information available... it assumes everyone was aware of all of these things."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#Data Cleaning\n",
+    "## Things to watch out for:\n",
+    "Here are the types of data \"cleaning\" methods I predict I'll have to undergo:\n",
+    "\n",
+    "* Convert Processors names into a particular speed or class"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#Data Analysis\n",
+    "## Things to watch out for:\n",
+    "\n",
+    "* \"Screen Size\" - it may be subject to diminishing returns to scale. That is, people like it more and more as it gets bigger, but then it becomes less of an issure or negative value afterwards. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
